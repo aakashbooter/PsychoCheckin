@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bates Motel Check-In</title>
+  
+</head>
+<body>
+  <div class="checkin-box">
+    <h1>Welcome to Bates Motel</h1>
+    <form>
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your full name" required />
+
+      <label for="nights">Number of Nights</label>
+      <input type="number" id="nights" name="nights" min="1" max="30" required />
+
+      <label for="room">Room Preference</label>
+      <select id="room" name="room">
+        <option value="1">Room 1 (Shower Included)</option>
+        <option value="2">Room 2</option>
+        <option value="3">Room 3</option>
+      </select>
+
+      <button type="submit">Check In</button>
+    </form>
+    <div class="footer">Your stay will be unforgettable...</div>
+  </div>
+</body>
+</html>
